@@ -9,12 +9,7 @@ pipeline {
     stage('artefact') {
       steps {
         ansiColor(colorMapName: 'xterm')
-      }
-    }
-
-    stage('artefacts') {
-      steps {
-        touch 'test'
+        echo 'eta golem bastun sam'
       }
     }
 
